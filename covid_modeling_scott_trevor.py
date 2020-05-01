@@ -1,4 +1,4 @@
- # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 9:07 AM -- 0.3 
+ # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 9:14 AM -- 0.4
 
 import time
 
@@ -13,8 +13,8 @@ time.sleep(4)
 num_infected_ppl = int(input("How many people are currently infected? Please enter an INTERGER number with no commas. Then press enter.    "))
 days_sim = int(input("How many days of infection growth do you want to stimulate? Please enter an INTERGER number with no commas. Then press enter.    "))
 
+print(f"The number of people infected with Covid-19 is {num_infected_ppl:,} and you will stimulate {days_sim} days worth of infection growth.\n")
 
-# Use a print() statement to display the current number of infected people and how many days to simulate.
 
 # Remove the comment on the next line and change the two variables to reflect the variable names you used. 
 # while VARIABLE FOR DAY NUMBER <= NUMBER OF DAYS TO SIMULATE:
