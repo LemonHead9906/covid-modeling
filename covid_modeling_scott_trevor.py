@@ -1,8 +1,13 @@
 Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
 Type "help", "copyright", "credits" or "license()" for more information.
->>> # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 8:03 AM -- 0.0 
+>>> # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 8:26 AM -- 0.1 
 
 import time
+
+num_infected_ppl = 0
+current_day = 0
+days_sim = 0
+num_deaths_ppl = 0
 
 # Create a variable here that will store the number of infected people, assign it a value of 0.  
 # Create a variable here that will store the current day number, assign it a value of 0. (i.e. the first day is day 0, the second day is day 1, etc.)
