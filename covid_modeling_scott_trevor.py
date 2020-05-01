@@ -1,4 +1,4 @@
- # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 8:44 AM -- 0.25 
+ # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 9:07 AM -- 0.3 
 
 import time
 
@@ -11,8 +11,8 @@ print("This program will model potential Covid-19 infections and deaths in the U
 time.sleep(4)
 
 num_infected_ppl = int(input("How many people are currently infected? Please enter an INTERGER number with no commas. Then press enter.    "))
+days_sim = int(input("How many days of infection growth do you want to stimulate? Please enter an INTERGER number with no commas. Then press enter.    "))
 
-# Use an input() statement to have the user enter the NUMBER OF DAYS TO SIMULATE.  Make sure it's an INT.
 
 # Use a print() statement to display the current number of infected people and how many days to simulate.
 
