@@ -1,4 +1,4 @@
- # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 9:29 AM -- 0.6
+ # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 9:37 AM -- 0.7
 
 import time
 
@@ -20,8 +20,8 @@ while Current day <= days_sim:
     
     num_infected_ppl += num_infected_ppl 
     num_deaths_ppl = round(num_infected_ppl *0.023)
-    # Write a print() statement that displays the number of infected people and the number of deaths. 
+    print(f"On day {current_day} there will be {num_infected_ppl:,) and approximately {num_deaths_ppl:,} people will die from Covid-19.\n") 
     current_day += 6
-    # Use time.sleep() to pause for a few seconds to allow the user to read the instructions.  
+    time.sleep(4)  
 
 # Write a print() statement that shows the total number of infections and the number of deaths after running your simulation.  
