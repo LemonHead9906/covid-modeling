@@ -1,6 +1,4 @@
-Python 3.8.2 (tags/v3.8.2:7b3ab59, Feb 25 2020, 23:03:10) [MSC v.1916 64 bit (AMD64)] on win32
-Type "help", "copyright", "credits" or "license()" for more information.
->>> # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 8:33 AM -- 0.2 
+ # Simple COVID-19 Exponential Growth Simulator Template -- Trevor S -- 5/1/2020 -- 8:44 AM -- 0.25 
 
 import time
 
@@ -12,8 +10,8 @@ num_deaths_ppl = 0
 print("This program will model potential Covid-19 infections and deaths in the U.S. Right now, the number of infections doubles evry six days.\n")
 time.sleep(4)
 
+num_infected_ppl = int(input("How many people are currently infected? Please enter an INTERGER number with no commas. Then press enter.    "))
 
-# Use an input() statement to have the user enter the CURRENT NUMBER OF INFECTED CASES.  Make sure it's an INT.
 # Use an input() statement to have the user enter the NUMBER OF DAYS TO SIMULATE.  Make sure it's an INT.
 
 # Use a print() statement to display the current number of infected people and how many days to simulate.
