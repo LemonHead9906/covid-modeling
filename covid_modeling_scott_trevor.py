@@ -24,6 +24,9 @@ while Current day <= days_sim:
     print(f"On day {current_day} there will be {num_infected_ppl:,) infections and approximately {num_deaths_ppl:,} people will die from Covid-19.\n") 
     time.sleep(4)
 
-print(f"After the simulation completes there will be {num_infected_ppl:,) infections and approximately {num_deaths_ppl:,} people will die from Covid-19.\n") 
+print(f"After the simulation completes there will be {num_infected_ppl:,) infections and approximately {num_deaths_ppl:,} people will die from Covid-19.\n")
+
+
+I Hope you can see this now.
 
   
